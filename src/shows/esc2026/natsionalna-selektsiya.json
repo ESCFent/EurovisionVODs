@@ -1,0 +1,30 @@
+{
+    "name": "Natsionalna Selektsiya",
+    "countryCode": "BG",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Bulgaria",
+    "shows": [
+        {
+            "id": "artist-semi-final",
+            "name": "Artist semi-final",
+            "date": "24 January 2026",
+            "type": "youtube",
+            "url": "c0UCPa-vQGI"
+        },
+        {
+            "id": "artist-selection-final",
+            "name": "Artist selection final",
+            "date": "31 January 2026",
+            "type": "youtube",
+            "url": "Dg0FFk7gpk4"
+        },
+        {
+            "id": "song-selection",
+            "name": "Song selection",
+            "date": "28 February 2026",
+            "type": "youtube",
+            "url": "xk2Zf0JX47I",
+            "startsAt": 152
+        }
+    ]
+}

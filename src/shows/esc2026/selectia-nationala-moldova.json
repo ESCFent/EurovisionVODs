@@ -1,0 +1,14 @@
+{
+    "name": "Selecția Națională",
+    "countryCode": "MD",
+    "countryName": "Moldova",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "17 January 2026",
+            "type": "youtube",
+            "url": "Xb7YS5ZeZ2s"
+        }
+    ]
+}

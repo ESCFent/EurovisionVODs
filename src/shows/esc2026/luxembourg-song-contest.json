@@ -1,0 +1,29 @@
+{
+    "name": "Luxembourg Song Contest",
+    "countryCode": "LU",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Luxembourg",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "24 January 2026",
+            "type": "player",
+            "url": "https://stream.rtl.lu/data/ondemand/video/e/hls/amlst:3445723/playlist.m3u8"
+        },
+        {
+            "id": "english",
+            "name": "Final [with English commentary]",
+            "date": "24 January 2026",
+            "type": "player",
+            "url": "https://stream.rtl.lu/data/ondemand/video/e/hls/amlst:3445727/playlist.m3u8"
+        },
+        {
+            "id": "french",
+            "name": "Final [with French commentary]",
+            "date": "24 January 2026",
+            "type": "player",
+            "url": "https://stream.rtl.lu/data/ondemand/video/e/hls/amlst:3445747/playlist.m3u8"
+        }
+    ]
+}

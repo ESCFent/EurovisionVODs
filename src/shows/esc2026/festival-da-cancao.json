@@ -1,0 +1,78 @@
+{
+    "name": "Festival da Canção",
+    "countryCode": "PT",
+    "countryName": "Portugal",
+    "categories": [
+        {
+            "category": "Semi-final 1",
+            "shows": [
+                {
+                    "id": "semi-final-1-part-1",
+                    "name": "Semi-final 1 [Part 1]",
+                    "date": "21 February 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_1_20260221225718e001t0360.mp4,.urlset/master.m3u8"
+                },
+                {
+                    "id": "semi-final-1-part-2",
+                    "name": "Semi-final 1 [Part 2]",
+                    "date": "21 February 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_2_20260221234118e001t0414.mp4,.urlset/master.m3u8"
+                },
+                {
+                    "id": "semi-final-1-psl",
+                    "name": "Semi-final 1 [in Portuguese Sign Language]",
+                    "date": "21 February 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_1_20260224082343e001t0213d_hi.mp4,/h264/512x384/p16368/p16368_1_20260224082343e001t0213d.mp4,/h264/512x384/p16368/p16368_1_20260224082343e001t0213d_lo.mp4,.urlset/master.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Semi-final 2",
+            "shows": [
+                {
+                    "id": "semi-final-2",
+                    "name": "Semi-final 2",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_1_20260228233718e002t0867.mp4,.urlset/master.m3u8"
+                },
+                {
+                    "id": "semi-final-2-psl",
+                    "name": "Semi-final 2 [in Portuguese Sign Language]",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_1_20260303180444e002t4731d_hi.mp4,/h264/512x384/p16368/p16368_1_20260303180444e002t4731d.mp4,/h264/512x384/p16368/p16368_1_20260303180444e002t4731d_lo.mp4,.urlset/master.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final-part-1",
+                    "name": "Final [Part 1]",
+                    "date": "7 March 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_1_20260307233118e003t0365.mp4,.urlset/master.m3u8"
+                },
+                {
+                    "id": "final-part-2",
+                    "name": "Final [Part 2]",
+                    "date": "7 March 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_2_20260307000000e003t0352.mp4,.urlset/master.m3u8"
+                },
+                {
+                    "id": "final-psl",
+                    "name": "Final [in Portuguese Sign Language]",
+                    "date": "7 March 2026",
+                    "type": "player",
+                    "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/h264/512x384/p16368/p16368_1_20260311200934e003t7391d_hi.mp4,/h264/512x384/p16368/p16368_1_20260311200934e003t7391d.mp4,/h264/512x384/p16368/p16368_1_20260311200934e003t7391d_lo.mp4,.urlset/master.m3u8"
+                }
+            ]
+        }
+    ]
+}

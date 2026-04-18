@@ -1,0 +1,122 @@
+{
+    "name": "Melodifestivalen",
+    "countryCode": "SE",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Sweden",
+    "categories": [
+        {
+            "category": "Heat 1",
+            "shows": [
+                {
+                    "id": "heat-1",
+                    "name": "Heat 1",
+                    "date": "31 January 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/63495b40-4baf-48f3-a536-d4936ba33391/hls-cmaf-full.m3u8"
+                },
+                {
+                    "id": "heat-1-audio-description",
+                    "name": "Heat 1 [with audio description]",
+                    "date": "31 January 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/aac34bed-a373-49a8-8761-ad16732d0ee0/hls-cmaf-full.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Heat 2",
+            "shows": [
+                {
+                    "id": "heat-2",
+                    "name": "Heat 2",
+                    "date": "7 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/344a80f2-523a-4209-b145-38a3f72fcb79/hls-cmaf-full.m3u8"
+                },
+                {
+                    "id": "heat-2-audio-description",
+                    "name": "Heat 2 [with audio description]",
+                    "date": "7 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/8d1e7d83-14bb-4686-bc9f-c0b885b96756/hls-cmaf-full.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Heat 3",
+            "shows": [
+                {
+                    "id": "heat-3",
+                    "name": "Heat 3",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/a4f4b046-0ac6-4cdd-8196-76ba69851f12/hls-cmaf-full.m3u8"
+                },
+                {
+                    "id": "heat-3-audio-description",
+                    "name": "Heat 3 [with audio description]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/67a0533c-6453-4c90-9683-698a7f96d6a5/hls-cmaf-full.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Heat 4",
+            "shows": [
+                {
+                    "id": "heat-4",
+                    "name": "Heat 4",
+                    "date": "21 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/e1d566b9-bfd1-49c7-ac38-79d2b58b2b93/hls-cmaf-full.m3u8"
+                },
+                {
+                    "id": "heat-4-audio-description",
+                    "name": "Heat 4 [with audio description]",
+                    "date": "21 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/a679e6d6-76b2-4c49-8f2a-58b3b3a30b01/hls-cmaf-full.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Heat 5 + Final Qual",
+            "shows": [
+                {
+                    "id": "heat-5",
+                    "name": "Heat 5 + Final Qual",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/febdf245-72a3-45c3-ab7a-76f93d67d13e/hls-cmaf-full.m3u8"
+                },
+                {
+                    "id": "heat-5-audio-description",
+                    "name": "Heat 5 + Final Qual [with audio description]",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/8571abec-77be-4deb-8ac5-80c0b2315f7c/hls-cmaf-full.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "7 March 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/6962ecb4-e15b-4467-81ea-908e6e319002/hls-cmaf-full.m3u8"
+                },
+                {
+                    "id": "final-audio-description",
+                    "name": "Final [with audio description]",
+                    "date": "7 March 2026",
+                    "type": "player",
+                    "url": "https://switcher.cdn.svt.se/redirect/2e82cc60-370c-4654-9959-755f351a6590/hls-cmaf-full.m3u8"
+                }
+            ]
+        }
+    ]
+}

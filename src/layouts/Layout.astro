@@ -1,0 +1,51 @@
+---
+import { Font } from "astro:assets";
+import { ClientRouter } from "astro:transitions";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta name="generator" content={Astro.generator} />
+		<Font cssVariable="--font-inter" preload />
+		<title>{title}</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+<ClientRouter />
+
+<style is:global>
+	*, ::before, ::after {
+		box-sizing: border-box;
+	}
+</style>
+<style>
+	html, body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		background: black;
+		color: white;
+		font-family: var(--font-inter), sans-serif;
+		overflow-x: hidden;
+	}
+	@keyframes fade {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
+	}
+	body {
+		opacity: 0;
+		animation: fade 100ms forwards;
+	}
+</style>

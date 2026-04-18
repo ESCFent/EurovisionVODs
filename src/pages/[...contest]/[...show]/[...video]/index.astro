@@ -1,0 +1,176 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../../../layouts/Layout.astro";
+import { existsSync, fstat, readdirSync } from "node:fs";
+import { join } from "node:path";
+import "shaka-player/dist/controls.css";
+import contestNames from "../../../../shows/_names";
+
+export async function getStaticPaths() {
+    const shows = await getCollection("shows");
+    return shows.flatMap(video => {
+        if (video.data.categories) {
+            return video.data.categories.flatMap((category: any) => category.shows.map((show: any) => ({
+                params: { contest: video.id.split("/")[0], show: video.id.split("/")[1], video: show.id },
+                props: { video },
+            })));
+        } else {
+            return video.data.shows!.map((show: any) => ({
+                params: { contest: video.id.split("/")[0], show: video.id.split("/")[1], video: show.id },
+                props: { video },
+            }))
+        };
+    });
+};
+
+const { contest, show, video } = Astro.params;
+const showID = `${contest}/${show}`;
+const shows = await getCollection("shows");
+const showData = shows.filter(selShow => selShow.id === showID)[0].data;
+
+const videoData = showData.categories
+    ? showData.categories.flatMap((category: any) => category.shows.filter((show: any) => show.id === video))[0]
+    : showData.shows!.filter((show: any) => show.id === video)[0];
+
+let subtitleLanguages: any[] = [];
+const subtitlesFolderPath = join(process.cwd(), `/public/subtitles/${showID}`);
+if (existsSync(subtitlesFolderPath)) {
+    const subtitles = readdirSync(join(process.cwd(), `/public/subtitles/${showID}`));
+    subtitleLanguages = subtitles.filter(file => file.split(".")[0] === video).map(file => file.split(".")[1]);
+};
+
+const vttPath = join(process.cwd(), `/public/vtt/${showID}/${video}.vtt`);
+let vttExists = existsSync(vttPath);
+
+const thumbnailPath = join(process.cwd(), `/src/shows/_thumbnails/${showID}/${video}.avif`);
+let thumbnailExists = existsSync(thumbnailPath);
+---
+
+<Layout title=`${showData.name} - ${videoData.name} - ${contestNames[contest.slice(0, -4)]} ${contest.slice(-4)} - Eurovision National Selection VODs`>
+    {videoData.type === "player"
+        ?
+            <div id="player" transition:name={`${showID}/${video}`} data-id={`${showID}/${videoData.id}`} data-src={videoData.url} data-title={`${showData.name} ${contest.slice(-4)} - ${videoData.name}`} data-clearkey={videoData.clearkey ?? ""} data-vtt={vttExists ? true : ""} data-subtitles={subtitleLanguages.join(", ")}>
+                <video autoplay poster={`/src/shows/_thumbnails/${showID}/${thumbnailExists ? videoData.id : "default"}.avif`}></video>
+            </div>
+        :
+            <a id="back" href={`/${showID}`}><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m7.825 13l5.6 5.6L12 20l-8-8l8-8l1.425 1.4l-5.6 5.6H20v2z"/></svg></a>
+            <iframe class={videoData.type != "youtube" ? "url" : ""} transition:name={`${showID}/${video}`} allowfullscreen allow="autoplay *; encrypted-media *;" scrolling="no" src={videoData.type === "youtube" ? `https://www.youtube-nocookie.com/embed/${videoData.url}?autoplay=1&modestbranding=1&rel=0${videoData.startsAt ? `&start=${videoData.startsAt}` : ""}` : videoData.url}></iframe>
+    }
+</Layout>
+
+<style>
+    html, body, #player, iframe {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        display: flex;
+        justify-content: center;
+    }
+    #back {
+        position: absolute;
+        left: 30px;
+        top: 16px;
+        width: 36px;
+        height: 36px;
+        border-radius: 36px;
+        background: black;
+        z-index: 9;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #back svg {
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    iframe.url, video {
+        aspect-ratio: 16 / 9;
+        height: auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: min(100%, calc(100vh * 16 / 9));
+        position: absolute;
+    }
+</style>
+<style is:inline>
+    * {
+        font-family: var(--font-inter) !important;
+    }
+    .shaka-content-title:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0%;
+        height: 5rem;
+        background: linear-gradient(180deg, black, transparent);
+        z-index: -1;
+    }
+    .shaka-top-controls {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .shaka-top-controls a {
+        width: 2rem;
+        height: 2rem;
+        margin-right: 0.5rem;
+        z-index: 1;
+    }
+    .shaka-controls-top-button-panel {
+        width: 98%;
+    }
+</style>
+
+{videoData.type === "player"
+    ? <script>
+        // @ts-nocheck - Shaka Player doesn't have TypeScript types!
+        import { navigate } from "astro:transitions/client";
+        import shaka from "shaka-player/dist/shaka-player.ui.js";
+
+        let player;
+
+        document.addEventListener("astro:page-load", async () => {
+            if (player) player.destroy();
+            player = new shaka.Player();
+            const ui = new shaka.ui.Overlay(player, document.querySelector("#player"), document.querySelector("video"));
+            await player.attach(document.querySelector("video"));
+
+            await ui.getControls();
+            if (document.querySelector("#player").dataset.clearkey) {
+                const kid = document.querySelector("#player").dataset.clearkey.split(":")[0];
+                const key = document.querySelector("#player").dataset.clearkey.split(":")[1];
+                player.configure({
+                    drm: {
+                        clearKeys: {
+                            [kid]: key
+                        }
+                    }
+                });
+            };
+
+            let url = document.querySelector("#player").dataset.src;
+            await player.load(url);
+
+            if (document.querySelector("#player").dataset.subtitles) {
+                const subtitleLanguages = document.querySelector("#player").dataset.subtitles.split(", ");
+                for (const language of subtitleLanguages) {
+                    await player.addTextTrackAsync(`/subtitles/${document.querySelector("#player").dataset.id}.${language}.srt`, language, "captions");
+                };
+            };
+
+            if (document.querySelector("#player").dataset.vtt) {
+                await player.addThumbnailsTrack(`/vtt/${document.querySelector("#player").dataset.id}.vtt`, "text/vtt")
+            };
+
+            // if there is a cleaner way to do this i'd love to know lmao
+            document.querySelector(".shaka-content-title").innerText = document.querySelector("#player").dataset.title;
+            document.querySelector(".shaka-content-title").insertAdjacentHTML("beforebegin", `<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="m7.825 13l5.6 5.6L12 20l-8-8l8-8l1.425 1.4l-5.6 5.6H20v2z"/></svg></a>`);
+            document.querySelector(".shaka-top-controls a").addEventListener("click", () => navigate(window.location.href.split("/").slice(0, -1).join("/")));
+        });
+    </script>
+    : ""}

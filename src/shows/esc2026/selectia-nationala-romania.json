@@ -1,0 +1,97 @@
+{
+    "name": "Selecția Națională",
+    "countryCode": "RO",
+    "countryName": "Romania",
+    "categories": [
+        {
+            "category": "Semi-final 1",
+            "shows": [
+                {
+                    "id": "semi-final-1-part-1",
+                    "name": "Semi-final 1 [Part 1]",
+                    "date": "9 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/87sjokHDQsv.m3u8"
+                },
+                {
+                    "id": "semi-final-1-part-2",
+                    "name": "Semi-final 1 [Part 2]",
+                    "date": "9 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/ZIQS8hO64Vu.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Semi-final 2",
+            "shows": [
+                {
+                    "id": "semi-final-2-part-1",
+                    "name": "Semi-final 2 [Part 1]",
+                    "date": "10 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/Gz78Ic8b7S0.m3u8"
+                },
+                {
+                    "id": "semi-final-2-part-2",
+                    "name": "Semi-final 2 [Part 2]",
+                    "date": "10 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/B94yMbbWxxo.m3u8"
+                },
+                {
+                    "id": "semi-final-2-part-3",
+                    "name": "Semi-final 2 [Part 3]",
+                    "date": "10 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/CIsMrvgVRU2.m3u8"
+                },
+                {
+                    "id": "semi-final-2-part-4",
+                    "name": "Semi-final 2 [Part 4]",
+                    "date": "10 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/drHWRj0avtz.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Semi-final 3",
+            "shows": [
+                {
+                    "id": "semi-final-3-part-1",
+                    "name": "Semi-final 3 [Part 1]",
+                    "date": "11 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/XJtRU4QIDd4.m3u8"
+                },
+                {
+                    "id": "semi-final-3-part-2",
+                    "name": "Semi-final 3 [Part 2]",
+                    "date": "11 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/gmEArKtR0Rm.m3u8"
+                },
+                {
+                    "id": "semi-final-3-part-3",
+                    "name": "Semi-final 3 [Part 3]",
+                    "date": "11 February 2026",
+                    "type": "player",
+                    "url": "https://vod-api.escfent.com/tvrplus/cPu2Y34zs9S.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "4 March 2026",
+                    "type": "youtube",
+                    "url": "mD6v3BnHD14"
+                }
+            ]
+        }
+    ]
+}

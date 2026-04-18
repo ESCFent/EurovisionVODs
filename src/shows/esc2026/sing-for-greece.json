@@ -1,0 +1,65 @@
+{
+    "name": "Sing for Greece",
+    "countryCode": "GR",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Greece",
+    "categories": [
+        {
+            "category": "Semi-final 1",
+            "shows": [
+                {
+                    "id": "semi-final-1",
+                    "name": "Semi-final 1",
+                    "date": "11 February 2026",
+                    "type": "player",
+                    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-vod/vod-nodrm/default/20260211_eurovisiongr_a-hmitelikos-new/20260211_eurovisiongr_a-hmitelikos-new/index.m3u8"
+                },
+                {
+                    "id": "semi-final-1-gsl",
+                    "name": "Semi-final 1 [in Greek Sign Language]",
+                    "date": "11 February 2026",
+                    "type": "player",
+                    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-vod/vod-nodrm/default/20260211_eurovisiongr-a-imitelikos-noimatiki/20260211_eurovisiongr-a-imitelikos-noimatiki/index.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Semi-final 2",
+            "shows": [
+                {
+                    "id": "semi-final-2",
+                    "name": "Semi-final 2",
+                    "date": "13 February 2026",
+                    "type": "player",
+                    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-vod/vod-nodrm/default/20260213_eurovisiongr-b-hmitelikos/20260213_eurovisiongr-b-hmitelikos/index.m3u8"
+                },
+                {
+                    "id": "semi-final-2-gsl",
+                    "name": "Semi-final 2 [in Greek Sign Language]",
+                    "date": "13 February 2026",
+                    "type": "player",
+                    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-vod/vod-nodrm/default/20260213_eurovisiongr-b-hmitelikos-noimatikh/20260213_eurovisiongr-b-hmitelikos-noimatikh/index.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "15 February 2026",
+                    "type": "player",
+                    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-vod/vod-nodrm/default/20260215_eurovisiongr-telikos/20260215_eurovisiongr-telikos/index.m3u8"
+                },
+                {
+                    "id": "final-gsl",
+                    "name": "Final [in Greek Sign Language]",
+                    "date": "15 February 2026",
+                    "type": "player",
+                    "url": "https://ert-ucdn.broadpeak-aas.com/bpk-vod/vod-nodrm/default/20260215_eurovisiongr-telikos-noimatikh/20260215_eurovisiongr-telikos-noimatikh/index.m3u8"
+                }
+            ]
+        }
+    ]
+}

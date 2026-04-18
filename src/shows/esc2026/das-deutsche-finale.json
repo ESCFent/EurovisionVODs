@@ -1,0 +1,22 @@
+{
+    "name": "Das Deutsche Finale",
+    "countryCode": "DE",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Germany",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "28 February 2026",
+            "type": "player",
+            "url": "https://av-adaptive.swr.de/i/swr/video/esc/2303906,.avc-270,.avc-360,.avc-540,.avc-720,.avc-1080,.mp4.csmil/master.m3u8"
+        },
+        {
+            "id": "final-audio-description",
+            "name": "Final [with audio description]",
+            "date": "28 February 2026",
+            "type": "player",
+            "url": "https://av-adaptive.swr.de/i/swr/video/esc/2303906.audio_description,.avc-270,.avc-360,.avc-540,.avc-720,.avc-1080,.mp4.csmil/master.m3u8"
+        }
+    ]
+}

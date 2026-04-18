@@ -1,0 +1,24 @@
+---
+import Video from "./Video.astro";
+
+const { category, showID } = Astro.props;
+---
+
+<div class="category">
+    <h4>{category.category}</h4>
+    <div class="shows">
+        {category.shows.map((show: Object) => <Video show={show} showID={showID} />)}
+    </div>
+</div>
+
+<style>
+    h4 {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    .shows {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+</style>

@@ -1,0 +1,32 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import ShowList from "../../layouts/ShowList.astro";
+import contestNames from "../../shows/_names";
+
+export async function getStaticPaths() {
+    const shows = await getCollection("shows");
+    return shows.map(show => ({
+        params: { contest: show.id.split("/")[0] },
+        props: { show },
+    }));
+};
+
+const { contest } = Astro.params;
+---
+
+<Layout title=`${contestNames[contest.slice(0, -4)]} ${contest.slice(-4)} - Eurovision National Selection VODs`>
+	<ShowList selectedContest={contest} />
+</Layout>
+
+<style>
+	#shows {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@media (max-width: 960px) {
+        #shows {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

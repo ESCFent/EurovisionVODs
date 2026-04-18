@@ -1,0 +1,24 @@
+{
+    "name": "Vidbir",
+    "countryCode": "UA",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Ukraine",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "7 February 2026",
+            "type": "youtube",
+            "url": "IXhybVCD5u0",
+            "startsAt": 309
+        },
+        {
+            "id": "english",
+            "name": "Final [with English commentary]",
+            "date": "7 February 2026",
+            "type": "youtube",
+            "url": "_Cs4e1FTXvE",
+            "startsAt": 216
+        }
+    ]
+}

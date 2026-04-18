@@ -1,0 +1,32 @@
+{
+    "name": "Dora",
+    "countryCode": "HR",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Croatia",
+    "shows": [
+        {
+            "id": "semi-final-1",
+            "name": "Semi-final 1",
+            "date": "12 February 2026",
+            "type": "player",
+            "url": "https://cdn1oiv.akamaized.net/hrtvodorigin/1970577739_delin.smil/manifest.mpd",
+            "clearkey": "00e84a734d843188a25ba0115bc32c1a:ca0e74e5a3d641f5cc8bf58844e0fe44"
+        },
+        {
+            "id": "semi-final-2",
+            "name": "Semi-final 2",
+            "date": "13 February 2026",
+            "type": "player",
+            "url": "https://cdn1oiv.akamaized.net/hrtvodorigin/1971655424_delin.smil/manifest.mpd",
+            "clearkey": "4b393f374d2d3964b9b279187b3bfb47:907361bf3077e0e9ceeb69c6ad20b74a"
+        },
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "15 February 2026",
+            "type": "player",
+            "url": "https://cdn1oiv.akamaized.net/hrtvodorigin/1979229260_delin.smil/manifest.mpd",
+            "clearkey": "4ced034096223f86abcce7ec56f72a29:f4ed06ac7d4d43f0b7e57d5cce11cc3e"
+        }
+    ]
+}

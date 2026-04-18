@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import Header from "../components/Header.astro";
+import Show from "../components/Show.astro";
+
+const shows = await getCollection("shows");
+const { selectedContest, selectedShow } = Astro.props;
+---
+
+<Header selectedContest={selectedContest} transition:persist />
+<div id="shows">
+    {shows.filter(show => show.id.split("/")[0] === selectedContest).sort((a, b) => a.data.countryName.localeCompare(b.data.countryName)).map(show => selectedShow === show.id ? <Show divider /> : <Show data={show.data} id={show.id} />)}
+</div>
+<style>
+	#shows {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+        padding-top: var(--header-height, calc(2.4em + 2rem + 2px));
+        width: calc(100% + 1px);
+	}
+	@media (max-width: 960px) {
+        #shows {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>

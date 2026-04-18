@@ -1,0 +1,35 @@
+{
+    "name": "Festivali i Këngës",
+    "countryCode": "AL",
+    "countryName": "Albania",
+    "shows": [
+        {
+            "id": "first-night",
+            "name": "First Night",
+            "date": "18 December 2025",
+            "type": "youtube",
+            "url": "pGspupGZmv4"
+        },
+        {
+            "id": "second-night",
+            "name": "Second Night",
+            "date": "19 December 2025",
+            "type": "youtube",
+            "url": "83mhuowqXwQ"
+        },
+        {
+            "id": "nostalgia-night",
+            "name": "Nostalgia Night",
+            "date": "20 December 2025",
+            "type": "youtube",
+            "url": "kHJ2UKaJX9c"
+        },
+        {
+            "id": "final-night",
+            "name": "Final Night",
+            "date": "21 December 2025",
+            "type": "youtube",
+            "url": "MQn79Gf9Kaw"
+        }
+    ]
+}

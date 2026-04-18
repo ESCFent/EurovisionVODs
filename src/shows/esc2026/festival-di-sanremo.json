@@ -1,0 +1,184 @@
+{
+    "name": "Festival di Sanremo",
+    "countryCode": "IT",
+    "countryName": "Italy",
+    "categories": [
+        {
+            "category": "Sanremo Giovani",
+            "shows": [
+                {
+                    "id": "sanremo-giovani-heat-1",
+                    "name": "Sanremo Giovani - Heat 1",
+                    "date": "11 November 2025",
+                    "type": "player",
+                    "url": "https://cdnraivoddom8.msvdn.net/dom8/podcastcdn/raiuno/Sanremo_2016/Sanremo_Giovani_EP_Puntate/27791974_,1800,2400,.mp4.csmil/playlist.m3u8"
+                },
+                {
+                    "id": "sanremo-giovani-heat-2",
+                    "name": "Sanremo Giovani - Heat 2",
+                    "date": "18 November 2025",
+                    "type": "player",
+                    "url": "https://cdnraivoddom9.msvdn.net/dom9/podcastcdn/raiuno/Sanremo_2016/Sanremo_Giovani_EP_Puntate/27855732_,1800,2400,.mp4.csmil/playlist.m3u8"
+                },
+                {
+                    "id": "sanremo-giovani-heat-3",
+                    "name": "Sanremo Giovani - Heat 3",
+                    "date": "25 November 2025",
+                    "type": "player",
+                    "url": "https://cdnraivoddom9.msvdn.net/dom9/podcastcdn/raiuno/Sanremo_2016/Sanremo_Giovani_EP_Puntate/27919122_,1800,2400,.mp4.csmil/playlist.m3u8"
+                },
+                {
+                    "id": "sanremo-giovani-heat-4",
+                    "name": "Sanremo Giovani - Heat 4",
+                    "date": "2 December 2025",
+                    "type": "player",
+                    "url": "https://cdnraivoddom8.msvdn.net/dom8/podcastcdn/raiuno/Sanremo_2016/Sanremo_Giovani_EP_Puntate/27977160_,1800,2400,.mp4.csmil/playlist.m3u8"
+                },
+                {
+                    "id": "sanremo-giovani-semi-final",
+                    "name": "Sanremo Giovani - Semi-final",
+                    "date": "9 December 2025",
+                    "type": "player",
+                    "url": "https://cdnraivoddom9.msvdn.net/dom9/podcastcdn/raiuno/Sanremo_2016/Sanremo_Giovani_EP_Puntate/28037769_,1800,2400,.mp4.csmil/playlist.m3u8"
+                },
+                {
+                    "id": "sanremo-giovani-final",
+                    "name": "Sanremo Giovani - Final / Sarà Sanremo",
+                    "date": "14 December 2025",
+                    "type": "player",
+                    "url": "https://cdnraivoddom9.msvdn.net/dom9/podcastcdn/raiuno/Sanremo2017/Sara_Sanremo2017/28081767_,1800,2400,.mp4.csmil/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Night 1",
+            "shows": [
+                {
+                    "id": "night-1",
+                    "name": "Night 1",
+                    "date": "24 February 2026",
+                    "type": "player",
+                    "url": "https://cdnraivodostr7.msvdn.net/ostr7/podcastcdn/teche_root/Catalogo_Mondo_HD_multiaudio/pBmqNMvpSCW01Brbl81k1QeeqqEEqualeeqqEEqual_,1800,2400,3600,5000/playlist.m3u8"
+                },
+                {
+                    "id": "night-1-rai-radio-2",
+                    "name": "Night 1 [Rai Radio 2 studio broadcast]",
+                    "date": "24 February 2026",
+                    "type": "player",
+                    "url": "https://cdnraivodostr4.msvdn.net/ostr4/podcastcdn/Rai/Radio2_a_Sanremo/28675665_,1800,2400/playlist.m3u8"
+                },
+                {
+                    "id": "night-1-lis",
+                    "name": "Night 1 [in Italian Sign Language]",
+                    "date": "24 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/Sanremo_accessibile/28675656_,1800,2400/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Night 2",
+            "shows": [
+                {
+                    "id": "night-2",
+                    "name": "Night 2",
+                    "date": "25 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/raiuno_multiaudio_nogeo/28686708_,1800,2400,3600,5000/playlist.m3u8"
+                },
+                {
+                    "id": "night-2-rai-radio-2",
+                    "name": "Night 2 [Rai Radio 2 studio broadcast]",
+                    "date": "25 February 2026",
+                    "type": "player",
+                    "url": "https://cdnraivodostr3.msvdn.net/ostr3/podcastcdn/Rai/Radio2_a_Sanremo/28686754_,1800,2400/playlist.m3u8"
+                },
+                {
+                    "id": "night-2-lis",
+                    "name": "Night 2 [in Italian Sign Language]",
+                    "date": "25 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/Sanremo_accessibile/28686751_,1800,2400/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Night 3",
+            "shows": [
+                {
+                    "id": "night-3",
+                    "name": "Night 3",
+                    "date": "26 February 2026",
+                    "type": "player",
+                    "url": "https://vod9-rai-it.akamaized.net/podcastcdn/raiuno/raiuno_multiaudio_nogeo/28697670_,1800,2400,3600,5000/playlist.m3u8"
+                },
+                {
+                    "id": "night-3-rai-radio-2",
+                    "name": "Night 3 [Rai Radio 2 studio broadcast]",
+                    "date": "26 February 2026",
+                    "type": "player",
+                    "url": "https://cdnraivodostr3.msvdn.net/ostr3/podcastcdn/Rai/Radio2_a_Sanremo/28697801_,1800,2400/playlist.m3u8"
+                },
+                {
+                    "id": "night-3-lis",
+                    "name": "Night 3 [in Italian Sign Language]",
+                    "date": "26 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/Sanremo_accessibile/28697800_,1800,2400/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Night 4 (Cover Night)",
+            "shows": [
+                {
+                    "id": "night-4",
+                    "name": "Night 4",
+                    "date": "27 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/raiuno_multiaudio_nogeo/28708889_,1800,2400,3600,5000/playlist.m3u8"
+                },
+                {
+                    "id": "night-4-rai-radio-2",
+                    "name": "Night 4 [Rai Radio 2 studio broadcast]",
+                    "date": "27 February 2026",
+                    "type": "player",
+                    "url": "https://cdnraivodostr3.msvdn.net/ostr3/podcastcdn/Rai/Radio2_a_Sanremo/28697801_,1800,2400/playlist.m3u8"
+                },
+                {
+                    "id": "night-4-lis",
+                    "name": "Night 4 [in Italian Sign Language]",
+                    "date": "27 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/Sanremo_accessibile/28708893_,1800,2400/playlist.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Final Night",
+            "shows": [
+                {
+                    "id": "final-night",
+                    "name": "Final Night",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/raiuno_multiaudio_nogeo/28718828_,1800,2400,3600,5000/playlist.m3u8"
+                },
+                {
+                    "id": "final-night-rai-radio-2",
+                    "name": "Final Night [Rai Radio 2 studio broadcast]",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://cdnraivodostr4.msvdn.net/ostr4/podcastcdn/Rai/Radio2_a_Sanremo/28718792_,1800,2400/playlist.m3u8"
+                },
+                {
+                    "id": "final-night-lis",
+                    "name": "Final Night [in Italian Sign Language]",
+                    "date": "28 February 2026",
+                    "type": "player",
+                    "url": "https://vod8-rai-it.akamaized.net/podcastcdn/raiuno/Sanremo_accessibile/28718807_,1800,2400/playlist.m3u8"
+                }
+            ]
+        }
+    ]
+}

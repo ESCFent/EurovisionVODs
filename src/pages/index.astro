@@ -1,0 +1,12 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../layouts/Layout.astro";
+import ShowList from "../layouts/ShowList.astro";
+
+const shows = await getCollection("shows");
+const latestESCYear = shows.filter(show => show.id.split("/")[0].slice(0, -4) === "esc").map(show => parseInt(show.id.split("/")[0].slice(-4))).sort((a, b) => b - a)[0];
+---
+
+<Layout title=`Eurovision Song Contest ${latestESCYear} - Eurovision National Selection VODs`>
+	<ShowList selectedContest=`esc${latestESCYear}` />
+</Layout>

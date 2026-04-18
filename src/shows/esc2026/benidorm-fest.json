@@ -1,0 +1,46 @@
+{
+    "name": "Benidorm Fest",
+    "countryCode": "ES",
+    "flagBackgroundRotation": "90deg",
+    "countryName": "Spain",
+    "categories": [
+        {
+            "category": "Semi-finals",
+            "shows": [
+                {
+                    "id": "semi-final-1",
+                    "name": "Semi-final 1",
+                    "date": "10 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiMjIENyZWF0ZWQgd2l0aCBVbmlmaWVkIFN0cmVhbWluZyBQbGF0Zm9ybSAodmVyc2lvbj0xLjE1LjEzLTMyMTEzKQoKIyB2YXJpYW50cwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NDQzNDAwMCxDT0RFQ1M9Im1wNGEuNDAuMixhdmMxLjY0MDAyOSIsUkVTT0xVVElPTj0xOTIweDEwODAsRlJBTUUtUkFURT0yNQpodHRwczovL3J0dmVobHN2b2Rsb3RlNy5ydHZlLmVzL21lZGlhdm9kdjIvcmVzb3VyY2VzL1NFQV9CRU5CRU4yL21wNC8zLzAvMTc3MDc2ODM2MjIwMy5tcDQvMTc3MDc2ODM2MjIwMy1hdWRpbz0xOTYyODUtdmlkZW89Mzk4NjU3MC5tM3U4P2lkYXNzZXQ9MTY5MzI3NzMmaGxzX2NsaWVudF9tYW5pZmVzdF92ZXJzaW9uPTMKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTEyMDUwMDAsQ09ERUNTPSJtcDRhLjQwLjIsYXZjMS42NDAwMjkiLFJFU09MVVRJT049NjQweDM2MCxGUkFNRS1SQVRFPTI1Cmh0dHBzOi8vcnR2ZWhsc3ZvZGxvdGU3LnJ0dmUuZXMvbWVkaWF2b2R2Mi9yZXNvdXJjZXMvU0VBX0JFTkJFTjIvbXA0LzcvOC8xNzcwNzY4NDI2Nzg3Lm1wNC8xNzcwNzY4NDI2Nzg3LWF1ZGlvPTEzMDczMy12aWRlbz0xMDA1OTQ1Lm0zdTg/aWRhc3NldD0xNjkzMjc3MyZobHNfY2xpZW50X21hbmlmZXN0X3ZlcnNpb249Mwo="
+                },
+                {
+                    "id": "semi-final-2",
+                    "name": "Semi-final 2",
+                    "date": "12 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiMjIENyZWF0ZWQgd2l0aCBVbmlmaWVkIFN0cmVhbWluZyBQbGF0Zm9ybSAodmVyc2lvbj0xLjE1LjEzLTMyMTEzKQoKIyB2YXJpYW50cwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NDQ1NzAwMCxDT0RFQ1M9Im1wNGEuNDAuMixhdmMxLjY0MDAyOSIsUkVTT0xVVElPTj0xOTIweDEwODAsRlJBTUUtUkFURT0yNQpodHRwczovL3J0dmVobHN2b2Rsb3RlNy5ydHZlLmVzL21lZGlhdm9kdjIvcmVzb3VyY2VzL1NFQV9CRU5CRU4yL21wNC80LzYvMTc3MDk0MTQ3OTY2NC5tcDQvMTc3MDk0MTQ3OTY2NC1hdWRpbz0xOTY4NDEtdmlkZW89NDAwNzAwMC5tM3U4P2lkYXNzZXQ9MTY5MzYzNTQmaGxzX2NsaWVudF9tYW5pZmVzdF92ZXJzaW9uPTMKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTEyMTIwMDAsQ09ERUNTPSJtcDRhLjQwLjIsYXZjMS42NDAwMjkiLFJFU09MVVRJT049NjQweDM2MCxGUkFNRS1SQVRFPTI1Cmh0dHBzOi8vcnR2ZWhsc3ZvZGxvdGU3LnJ0dmUuZXMvbWVkaWF2b2R2Mi9yZXNvdXJjZXMvU0VBX0JFTkJFTjIvbXA0LzQvMy8xNzcwOTQxNTYxMTM0Lm1wNC8xNzcwOTQxNTYxMTM0LWF1ZGlvPTEzMTA0Ny12aWRlbz0xMDEyMDAwLm0zdTg/aWRhc3NldD0xNjkzNjM1NCZobHNfY2xpZW50X21hbmlmZXN0X3ZlcnNpb249Mwo="
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiMjIENyZWF0ZWQgd2l0aCBVbmlmaWVkIFN0cmVhbWluZyBQbGF0Zm9ybSAodmVyc2lvbj0xLjE1LjEzLTMyMTEzKQoKIyB2YXJpYW50cwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NDQ1NDAwMCxDT0RFQ1M9Im1wNGEuNDAuMixhdmMxLjY0MDAyOSIsUkVTT0xVVElPTj0xOTIweDEwODAsRlJBTUUtUkFURT0yNQpodHRwczovL3J0dmVobHN2b2Rsb3RlNy5ydHZlLmVzL21lZGlhdm9kdjIvcmVzb3VyY2VzL1NFQV9CRU5CRU4yL21wNC84LzgvMTc3MTExNDU1NjU4OC5tcDQvMTc3MTExNDU1NjU4OC1hdWRpbz0xOTYxNzktdmlkZW89NDAwNTAwMC5tM3U4P2lkYXNzZXQ9MTY5Mzg3ODYmaGxzX2NsaWVudF9tYW5pZmVzdF92ZXJzaW9uPTMKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTEyMTAwMDAsQ09ERUNTPSJtcDRhLjQwLjIsYXZjMS42NDAwMjkiLFJFU09MVVRJT049NjQweDM2MCxGUkFNRS1SQVRFPTI1Cmh0dHBzOi8vcnR2ZWhsc3ZvZGxvdGU3LnJ0dmUuZXMvbWVkaWF2b2R2Mi9yZXNvdXJjZXMvU0VBX0JFTkJFTjIvbXA0LzAvOC8xNzcxMTE0NjczNDgwLm1wNC8xNzcxMTE0NjczNDgwLWF1ZGlvPTEzMDYwNy12aWRlbz0xMDEwMDAwLm0zdTg/aWRhc3NldD0xNjkzODc4NiZobHNfY2xpZW50X21hbmlmZXN0X3ZlcnNpb249Mw=="
+                },
+                {
+                    "id": "final-ssl",
+                    "name": "Final [in Spanish Sign Language]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjozCiMjIENyZWF0ZWQgd2l0aCBVbmlmaWVkIFN0cmVhbWluZyBQbGF0Zm9ybSAodmVyc2lvbj0xLjE1LjEzLTMyMTEzKQoKIyB2YXJpYW50cwojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NDQ1NTAwMCxDT0RFQ1M9Im1wNGEuNDAuMixhdmMxLjY0MDAyOSIsUkVTT0xVVElPTj0xOTIweDEwODAsRlJBTUUtUkFURT0yNQpodHRwczovL3J0dmVobHN2b2Rsb3RlNy5ydHZlLmVzL21lZGlhdm9kdjIvcmVzb3VyY2VzL1NFQV9CRU5CRU4yL21wNC81LzQvMTc3MTExNDg3Nzg0NS5tcDQvMTc3MTExNDg3Nzg0NS1hdWRpbz0xOTQyNzEtdmlkZW89NDAwODA0MS5tM3U4P2lkYXNzZXQ9MTY5Mzg3OTAmaGxzX2NsaWVudF9tYW5pZmVzdF92ZXJzaW9uPTMKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTEyMDkwMDAsQ09ERUNTPSJtcDRhLjQwLjIsYXZjMS42NDAwMjkiLFJFU09MVVRJT049NjQweDM2MCxGUkFNRS1SQVRFPTI1Cmh0dHBzOi8vcnR2ZWhsc3ZvZGxvdGU3LnJ0dmUuZXMvbWVkaWF2b2R2Mi9yZXNvdXJjZXMvU0VBX0JFTkJFTjIvbXA0LzMvNC8xNzcxMTE0OTg3MDQzLm1wNC8xNzcxMTE0OTg3MDQzLWF1ZGlvPTEzMDE4MS12aWRlbz0xMDEwMTQwLm0zdTg/aWRhc3NldD0xNjkzODc5MCZobHNfY2xpZW50X21hbmlmZXN0X3ZlcnNpb249Mw=="
+                }
+            ]
+        }
+    ]
+}

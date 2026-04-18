@@ -1,0 +1,46 @@
+{
+    "name": "Supernova",
+    "countryCode": "LV",
+    "flagBackgroundRotation": "90deg",
+    "countryName": "Latvia",
+    "categories": [
+        {
+            "category": "Semi-finals",
+            "shows": [
+                {
+                    "id": "semi-final-1",
+                    "name": "Semi-final 1",
+                    "date": "31 January 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjo0CiNFWFQtWC1NRURJQTpUWVBFPUFVRElPLEdST1VQLUlEPSJncnAxIixMQU5HVUFHRT0iZW5nIixOQU1FPSJFbmdsaXNoIixERUZBVUxUPVlFUyxBVVRPU0VMRUNUPVlFUyxVUkk9Imh0dHBzOi8vbHR2MjA2MC5ic3RybS5uZXQvc3RvcmUvX2RlZmluc3RfL3Rtc3AwMDA2MC92b2R0LzA3L2UxLzExODg3NzEvZDJ6X2kyNi00NDAwLTAwMS5zbWlsL2NodW5rbGlzdF9iMzg0MDAwX2FvX3NsZW5nX3Q2NFJXNW5iR2x6YUE9PS5tM3U4IgojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NTAwMDAwMCxOQU1FPSJIRF81MDAwIixSRVNPTFVUSU9OPTE5MjB4MTA4MCxBVURJTz0iZ3JwMSIKaHR0cHM6Ly9sdHYyMDYwLmJzdHJtLm5ldC9zdG9yZS9fZGVmaW5zdF8vdG1zcDAwMDYwL3ZvZHQvMDcvZTEvMTE4ODc3MS9kMnpfaTI2LTQ0MDAtMDAxLnNtaWwvY2h1bmtsaXN0X2I1MDAwMDAwX3ZvX3NsZW5nX3Q2NFNFUmZOVEF3TUE9PS5tM3U4"
+                },
+                {
+                    "id": "semi-final-2",
+                    "name": "Semi-final 2",
+                    "date": "7 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjo0CiNFWFQtWC1NRURJQTpUWVBFPUFVRElPLEdST1VQLUlEPSJncnAxIixMQU5HVUFHRT0iZW5nIixOQU1FPSJFbmdsaXNoIixERUZBVUxUPVlFUyxBVVRPU0VMRUNUPVlFUyxVUkk9Imh0dHBzOi8vbHR2MjA2MC5ic3RybS5uZXQvc3RvcmUvX2RlZmluc3RfL3Rtc3AwMDA2MC92b2R0LzA3L2U2LzExOTIzNDYvZnpnX2kyNi00NDAwLTAwMi5zbWlsL2NodW5rbGlzdF9iMzg0MDAwX2FvX3NsZW5nX3Q2NFJXNW5iR2x6YUE9PS5tM3U4IgojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NTAwMDAwMCxOQU1FPSJIRF81MDAwIixSRVNPTFVUSU9OPTE5MjB4MTA4MCxBVURJTz0iZ3JwMSIKaHR0cHM6Ly9sdHYyMDYwLmJzdHJtLm5ldC9zdG9yZS9fZGVmaW5zdF8vdG1zcDAwMDYwL3ZvZHQvMDcvZTYvMTE5MjM0Ni9memdfaTI2LTQ0MDAtMDAyLnNtaWwvY2h1bmtsaXN0X2I1MDAwMDAwX3ZvX3NsZW5nX3Q2NFNFUmZOVEF3TUE9PS5tM3U4"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjo0CiNFWFQtWC1NRURJQTpUWVBFPUFVRElPLEdST1VQLUlEPSJncnAxIixMQU5HVUFHRT0iZW5nIixOQU1FPSJFbmdsaXNoIixERUZBVUxUPVlFUyxBVVRPU0VMRUNUPVlFUyxVUkk9Imh0dHBzOi8vbHR2MjA2MC5ic3RybS5uZXQvc3RvcmUvX2RlZmluc3RfL3Rtc3AwMDA2MC92b2R0LzA3L2VmLzExOTY0MzMvM3l6X2kyNi00NDAwLTAwMy5zbWlsL2NodW5rbGlzdF9iMzg0MDAwX2FvX3NsZW5nX3Q2NFJXNW5iR2x6YUE9PS5tM3U4IgojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NTAwMDAwMCxOQU1FPSJIRF81MDAwIixSRVNPTFVUSU9OPTE5MjB4MTA4MCxBVURJTz0iZ3JwMSIKaHR0cHM6Ly9sdHYyMDYwLmJzdHJtLm5ldC9zdG9yZS9fZGVmaW5zdF8vdG1zcDAwMDYwL3ZvZHQvMDcvZWYvMTE5NjQzMy8zeXpfaTI2LTQ0MDAtMDAzLnNtaWwvY2h1bmtsaXN0X2I1MDAwMDAwX3ZvX3NsZW5nX3Q2NFNFUmZOVEF3TUE9PS5tM3U4"
+                },
+                {
+                    "id": "final-lsl",
+                    "name": "Final [in Latvian Sign Language]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjo0CiNFWFQtWC1NRURJQTpUWVBFPUFVRElPLEdST1VQLUlEPSJncnAxIixMQU5HVUFHRT0iZW5nIixOQU1FPSJFbmdsaXNoIixERUZBVUxUPVlFUyxBVVRPU0VMRUNUPVlFUyxVUkk9Imh0dHBzOi8vbHR2MjA2MC5ic3RybS5uZXQvc3RvcmUvX2RlZmluc3RfL3Rtc3AwMDA2MC92b2R0LzA3L2VmLzExOTY0NDcvdnl5X2kyNi00NDAxLTAwMy5zbWlsL2NodW5rbGlzdF9iMzg0MDAwX2FvX3NsZW5nX3Q2NFJXNW5iR2x6YUE9PS5tM3U4IgojRVhULVgtU1RSRUFNLUlORjpCQU5EV0lEVEg9NTAwMDAwMCxOQU1FPSJIRF81MDAwIixSRVNPTFVUSU9OPTE5MjB4MTA4MCxBVURJTz0iZ3JwMSIKaHR0cHM6Ly9sdHYyMDYwLmJzdHJtLm5ldC9zdG9yZS9fZGVmaW5zdF8vdG1zcDAwMDYwL3ZvZHQvMDcvZWYvMTE5NjQ0Ny92eXlfaTI2LTQ0MDEtMDAzLnNtaWwvY2h1bmtsaXN0X2I1MDAwMDAwX3ZvX3NsZW5nX3Q2NFNFUmZOVEF3TUE9PS5tM3U4"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../../layouts/Layout.astro";
+import ShowList from "../../../layouts/ShowList.astro";
+import Show from "../../../components/Show.astro";
+import VideoCategory from "../../../components/VideoCategory.astro";
+import Video from "../../../components/Video.astro";
+import contestNames from "../../../shows/_names";
+
+export async function getStaticPaths() {
+    const shows = await getCollection("shows");
+    return shows.map(show => ({
+        params: { contest: show.id.split("/")[0], show: show.id.split("/")[1] },
+        props: { show },
+    }));
+};
+
+const { contest, show } = Astro.params;
+const showID = `${contest}/${show}`;
+const shows = await getCollection("shows");
+const showData = shows.filter(selShow => selShow.id === showID)[0].data;
+---
+
+<Layout title=`${showData.name} - ${contestNames[contest.slice(0, -4)]} ${contest.slice(-4)} - Eurovision National Selection VODs`>
+    <ShowList selectedContest={contest} selectedShow={showID} />
+    <div id="modal" transition:animate="fade">
+        <div id="modal-content">
+            <div id="modal-header">
+                <div id="show-info-container">
+                    <Show data={showData} id={showID} />
+                </div>
+                <a href={`/${contest}`} id="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6z"/></svg>
+                </a>
+            </div>
+            <div id="show-details">
+                {showData.categories
+                    ? showData.categories.map((category: Object) => <VideoCategory category={category} showID={showID} />)
+                    : showData.shows!.map((show: Object) => <Video show={show} showID={showID} />)}
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    #modal {
+        position: fixed;
+        top: var(--header-height, calc(2.4em + 2rem + 2px));
+        left: 0;
+        width: 100svw;
+        height: calc(100svh - var(--header-height, calc(2.4em + 2rem + 2px)));
+        background: rgba(0, 0, 0, 0.75);
+        z-index: 2;
+        padding: 4rem;
+        display: flex;
+    }
+    @keyframes slide {
+        from {
+            height: calc(5rem - 1px);
+        }
+        to {
+            height: 100%;
+        }
+    }
+    #modal-content {
+        border: 1px solid #fff;
+        margin: auto;
+        min-width: min(75vw, 50rem);
+        max-width: 50rem;
+        display: flex;
+        flex-direction: column;
+        height: calc(5rem - 1px);
+        max-height: max-content;
+        overflow: hidden;
+    }
+    @keyframes fadeBackground {
+        from {
+            background: transparent;
+        }
+        to {
+            background: black;
+        }
+    }
+    #show-info-container {
+        pointer-events: none;
+    }
+    #modal-header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+    #modal-header #close {
+        color: white;
+        width: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #modal-header #close svg {
+        width: 50%;
+        height: 50%;
+    }
+    #show-details {
+        background: black;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    #modal.direct-load #modal-content {
+        height: 100%;
+    }
+    #modal.animate #modal-content {
+        animation: slide 300ms ease-in-out forwards 300ms;
+    }
+    #modal.direct-load #modal-header, #modal.direct-load #show-details {
+        background: black;
+    }
+    #modal.animate #modal-header, #modal.animate #show-details {
+        animation: fadeBackground 100ms forwards 300ms;
+    }
+    .last {
+        margin-bottom: -1rem;
+    }
+    @media screen and (max-width: 960px) {
+        #modal {
+            padding: 0;
+        }
+        #modal-content {
+            max-height: 100%;
+            margin: 0;
+            max-width: 100%;
+            width: 100%;
+        }
+        #show-details {
+            height: 100%;
+        }
+    }
+</style>
+
+<script>
+    let navigatedTo = false;
+    let previousURL: String;
+    let currentURL: String;
+
+    document.addEventListener("astro:before-swap", e => {
+        previousURL = e.from.href;
+        console.log(previousURL)
+        currentURL = e.to.href;
+        navigatedTo = true;
+    });
+    document.addEventListener("astro:page-load", e => {
+        // @ts-ignore - typescript doesn't know about activeViewTransition ig
+        if ((navigatedTo || document.activeViewTransition) && !(previousURL && previousURL.includes(currentURL)) && document.querySelector("#modal")) document.querySelector("#modal")!.classList.add("animate");
+        else if (document.querySelector("#modal")) document.querySelector("#modal")!.classList.add("direct-load");
+    });
+</script>

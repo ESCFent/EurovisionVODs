@@ -1,0 +1,30 @@
+{
+    "name": "Vienna Calling - Wer singt für Österreich?",
+    "countryCode": "AT",
+    "flagBackgroundRotation": "90deg",
+    "countryName": "Austria",
+    "shows": [
+        {
+            "id": "part-1",
+            "name": "Final [Part 1]",
+            "date": "20 February 2026",
+            "type": "player",
+            "url": "https://apasfiis.sf.apa.at/ipad/cms-worldwide_episodes/14309470_0058_QXA.mp4/playlist.m3u8"
+        },
+        {
+            "id": "part-2",
+            "name": "Final [Part 2 / Voting]",
+            "date": "20 February 2026",
+            "type": "player",
+            "url": "https://apasfiis.sf.apa.at/ipad/cms-worldwide_episodes/14311881_0012_QXA.mp4/playlist.m3u8"
+        },
+        {
+            "id": "english",
+            "name": "Final [with English commentary]",
+            "date": "20 February 2026",
+            "type": "youtube",
+            "url": "U7F7PJWJQKs",
+            "startsAt": 521
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+---
+import { getCollection } from "astro:content";
+import contestNames from "../shows/_names";
+const shows = await getCollection("shows");
+const { selectedContest } = Astro.props;
+---
+
+<header>
+    <h1>Eurovision National Selection VODs</h1>
+    <span>content found by <a href="https://bsky.app/profile/bochibochigalaxy.bsky.social" target="_blank">taylor</a>, website made by <a href="https://links.escfent.com" target="_blank">esc fent</a></span>
+    <select name="selected-show" id="selected-show">
+        {[...new Set(shows.map(show => show.id.split("/")[0].slice(-4)))].sort().reverse().map(year => 
+            <optgroup label={year}>
+                {[...new Set(shows.filter(show => show.id.split("/")[0].slice(-4) === year).map(show => show.id.split("/")[0]))].map(show =>
+                    <option value={show} selected={selectedContest === show}>{contestNames[show.slice(0, -4)]} {year}</option>
+                )}
+            </optgroup>
+        )}
+    </select>
+</header>
+
+<style>
+    header {
+        display: flex;
+        width: 100%;
+        padding-left: 2rem;
+        border-bottom: 2px solid #fff;
+        position: fixed;
+        z-index: 9;
+        background: black;
+    }
+    a {
+        color: white;
+    }
+    span {
+        text-align: right;
+        margin-left: 1rem;
+    }
+    h1 {
+        justify-self: start;
+        margin: 0;
+        padding: 1rem 0;
+        margin-right: auto;
+        line-height: 1;
+    }
+    header > *:not(select) {
+        align-self: center;
+    }
+    select {
+        padding: 0 2rem;
+        outline: none;
+        border: none;
+        border-left: 2px solid #fff;
+        background: black;
+        color: white;
+        font: inherit;
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin-left: 2rem;
+    }
+    @media screen and (max-width: 960px) {
+        header {
+            flex-direction: column;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            padding: 0.5rem 1rem;
+        }
+        select {
+            margin: 0;
+            text-align: center;
+            border-left: none;
+            border-top: 2px solid #fff;
+            padding: 0.5rem 1rem;
+            margin-top: 0.5rem;
+        }
+    }
+</style>
+
+<script>
+    import { navigate } from "astro:transitions/client";
+    document.documentElement.style.cssText = `--header-height: ${document.querySelector("header")!.scrollHeight + 1}px;`;
+    window.addEventListener("resize", () => {
+        if (document.querySelector("header")) document.documentElement.style.cssText = `--header-height: ${document.querySelector("header")!.scrollHeight + 1}px;`;
+    });
+    document.querySelector("select")!.addEventListener("change", e => navigate(`/${(e.target as HTMLSelectElement).value}`));
+    document.addEventListener("astro:after-swap", () => {
+        if (document.querySelector("header")) document.documentElement.style.cssText = `--header-height: ${document.querySelector("header")!.scrollHeight + 1}px;`;
+        if (document.querySelector("select")) document.querySelector("select")!.addEventListener("change", e => navigate(`/${(e.target as HTMLSelectElement).value}`));
+    });
+</script>

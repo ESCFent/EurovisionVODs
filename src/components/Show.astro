@@ -1,0 +1,86 @@
+---
+let { data, id, divider } = Astro.props;
+
+let Flag;
+if (id) Flag = (await import(`../flags/${data.countryCode.toLowerCase()}.svg`)).default;
+---
+
+{divider
+    ? <div id="divider"></div>
+    : <a href=`/${id}` class="show" transition:name={id} {...(data.flagBackgroundRotation && { style: `--flag-rotation: ${data.flagBackgroundRotation};` })}>
+        <div class="flag">
+            <Flag />
+        </div>
+        <h2 class="show-info"><span class="show-name">{data.name}</span> <span class="country-name">{data.countryName}</span></h2>
+        <Flag class="background" />
+    </a>}
+
+<style>
+    .show {
+        display: flex;
+        align-items: center;
+        height: 5rem;
+        line-height: 1.1;
+        border-bottom: 1px solid #fff;
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+        color: #fff;
+        text-decoration: none;
+        z-index: 2;
+        border-right: 1px solid #fff;
+    }
+    #divider {
+        height: 5rem;
+        border-bottom: 1px solid #fff;
+        border-right: 1px solid #fff;
+    }
+    .show .flag, .show svg {
+        height: 100%;
+        z-index: 1;
+        pointer-events: none;
+        user-select: none;
+    }
+    .show .background {
+        position: absolute;
+        left: 0%;
+        width: calc(5rem + 5%);
+        height: auto;
+        z-index: 0;
+        filter: blur(7.5rem);
+        opacity: 0;
+        transform: rotate(var(--flag-rotation, "0deg"));
+        transition: 500ms;
+        background-image: var(--image, "default");
+        background-size: 100%;
+        background-position-y: bottom;
+        background-repeat: no-repeat;
+    }
+    .show:hover .background {
+        left: -5%;
+        width: 110%;
+        opacity: 0.5;
+    }
+    .show-info {
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 0.5rem;
+    }
+    .country-name {
+        font-weight: 400;
+        font-size: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        color: rgba(255, 255, 255, 0.75);
+        text-align: right;
+    }
+    @media screen and (max-width: 960px) {
+        .show {
+            cursor: default !important;
+        }
+    }
+</style>

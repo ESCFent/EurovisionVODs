@@ -1,0 +1,45 @@
+{
+    "name": "Pezma za Evroviziju",
+    "countryCode": "RS",
+    "countryName": "Serbia",
+    "categories": [
+        {
+            "category": "Semi-finals",
+            "shows": [
+                {
+                    "id": "semi-final-1",
+                    "name": "Semi-final 1",
+                    "date": "24 February 2026",
+                    "type": "youtube",
+                    "url": "Uimwu-WRg0s"
+                },
+                {
+                    "id": "semi-final-2",
+                    "name": "Semi-final 2",
+                    "date": "26 February 2026",
+                    "type": "youtube",
+                    "url": "iR89NU5Qtms"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "28 February 2026",
+                    "type": "youtube",
+                    "url": "40pucOmIJbY"
+                },
+                {
+                    "id": "final-en",
+                    "name": "Final [with English commentary]",
+                    "date": "28 February 2026",
+                    "type": "youtube",
+                    "url": "rligiLSQfUg"
+                }
+            ]
+        }
+    ]
+}

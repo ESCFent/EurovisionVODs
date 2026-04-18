@@ -1,0 +1,50 @@
+{
+    "name": "Eurovizija.LT",
+    "countryCode": "LT",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Lithuania",
+    "shows": [
+        {
+            "id": "heat-1",
+            "name": "Heat 1",
+            "date": "24 January 2026",
+            "type": "player",
+            "url": "https://stream-vod3.lrt.lt/VIDEO/2026-01/MUZ19162_W_3977c946-5d3f-435d-8104-f2e34f78675f.mp4/playlist.m3u8"
+        },
+        {
+            "id": "heat-2",
+            "name": "Heat 2",
+            "date": "31 January 2026",
+            "type": "player",
+            "url": "https://stream-vod3.lrt.lt/VIDEO/2026-01/MUZ19163_W_82cc2c71-20a6-4d76-a0c1-70b612855620.mp4/playlist.m3u8"
+        },
+        {
+            "id": "heat-3",
+            "name": "Heat 3",
+            "date": "7 February 2026",
+            "type": "player",
+            "url": "https://stream-vod3.lrt.lt/VIDEO/2026-02/MUZ19164_W_b2ff906a-4a78-483d-8823-7d6e9f8c0c5b.mp4/playlist.m3u8"
+        },
+        {
+            "id": "heat-4",
+            "name": "Heat 4",
+            "date": "14 February 2026",
+            "type": "player",
+            "url": "https://stream-vod3.lrt.lt/VIDEO/2026-02/PUB_12510_W_cdcd966c-9e62-41f6-9d14-41004286e516.mp4/playlist.m3u8"
+        },
+        {
+            "id": "heat-5",
+            "name": "Heat 5",
+            "date": "21 February 2026",
+            "type": "player",
+            "url": "https://stream-vod3.lrt.lt/VIDEO/2026-02/MUZ19166_W_89edcc8d-d0ae-49d2-8530-f6d20ad69ed1.mp4/playlist.m3u8"
+        },
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "27 February 2026",
+            "type": "player",
+            "url": "https://stream-vod3.lrt.lt/VIDEO/2026-02/MUZ19167_W_057752b6-1941-4eff-bb3a-5055e8e68556.mp4/playlist.m3u8"
+        }
+    ]
+}

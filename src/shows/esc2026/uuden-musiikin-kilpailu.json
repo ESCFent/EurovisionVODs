@@ -1,0 +1,56 @@
+{
+    "name": "Uuden Musiikin Kilpailu",
+    "countryCode": "FI",
+    "countryName": "Finland",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final [with Finnish/Swedish commentary]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77200088"
+        },
+        {
+            "id": "5.1-surround",
+            "name": "Final [with 5.1 surround sound and Finnish/Swedish commentary]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77479615"
+        },
+        {
+            "id": "english",
+            "name": "Final [with English commentary]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77200079"
+        },
+        {
+            "id": "fsl",
+            "name": "Final [in Finnish Sign Language]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77282641"
+        },
+        {
+            "id": "sami",
+            "name": "Final [with Sámi commentary]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77200065"
+        },
+        {
+            "id": "russian",
+            "name": "Final [with Russian commentary]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77199599"
+        },
+        {
+            "id": "ukrainian",
+            "name": "Final [with Ukrainian commentary]",
+            "date": "28 February 2026",
+            "type": "iframe",
+            "url": "https://yle.fi/ukko/assets/video-embed.html?id=1-77199844"
+        }
+    ]
+}

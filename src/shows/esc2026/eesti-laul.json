@@ -1,0 +1,65 @@
+{
+    "name": "Eesti Laul",
+    "countryCode": "EE",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Estonia",
+    "categories": [
+        {
+            "category": "Estonian",
+            "shows": [
+                {
+                    "id": "final-part-1",
+                    "name": "Final [Part 1]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://vod.err.ee/hls/vod/b9b78ed6ce0d5c0aa474e81850a777ec/4/v/master.m3u8"
+                },
+                {
+                    "id": "final-part-2",
+                    "name": "Final [Part 2]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://vod.err.ee/hls/vod/78eb0e1ef6a200e2f2bdbda3ca1284b3/2/v/master.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Estonian Sign Language",
+            "shows": [
+                {
+                    "id": "final-esl-part-1",
+                    "name": "Final [in Estonian Sign Language, Part 1]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://vod.err.ee/hls/vod/75a6c8e9f68722d92a5ed9bc23535945/2/v/master.m3u8"
+                },
+                {
+                    "id": "final-esl-part-2",
+                    "name": "Final [in Estonian Sign Language, Part 2]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://vod.err.ee/hls/vod/25943eb795eb0c915fd0c307ef876739/2/v/master.m3u8"
+                }
+            ]
+        },
+        {
+            "category": "Russian",
+            "shows": [
+                {
+                    "id": "final-russian-part-1",
+                    "name": "Final [in Russian, Part 1]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://vod.err.ee/hls/vod/12fbb32af2b10a9caf9cbbda79d084ce/2/v/master.m3u8"
+                },
+                {
+                    "id": "final-russian-part-2",
+                    "name": "Final [in Russian, Part 2]",
+                    "date": "14 February 2026",
+                    "type": "player",
+                    "url": "https://vod.err.ee/hls/vod/d04737e604a5538dbd27ea9a7f5dd107/2/v/master.m3u8"
+                }
+            ]
+        }
+    ]
+}

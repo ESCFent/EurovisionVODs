@@ -1,0 +1,15 @@
+{
+    "name": "Dansk Melodi Grand Prix",
+    "countryCode": "DK",
+    "flagBackgroundRotation": "90deg",
+    "countryName": "Denmark",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "14 February 2026",
+            "type": "player",
+            "url": "https://drod22c.akamaized.net/all/clear/none/2c/6992e1fac04bbf2f38f8002c/00252602010/stream_fmp4/master_manifest.m3u8"
+        }
+    ]
+}
