@@ -8,7 +8,7 @@ serve(async request => {
     const path = new URL(request.url).pathname;
 
     if (path === "/") {
-        return Response.redirect("https://github.com/ESCFent/EurovisionVODs/tree/main/api", 307);
+        return Response.redirect("https://github.com/ESCFent/EurovisionVODs/tree/master/api", 307);
     } else if (path === "/favicon.ico") {
         return new Response(null, { status: 200, headers });
     } else if (path.split("/").length >= 3) {
