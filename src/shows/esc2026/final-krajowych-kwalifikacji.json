@@ -1,0 +1,22 @@
+{
+    "name": "Finał Krajowych Kwalifikacji",
+    "countryCode": "PL",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Poland",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "7 March 2026",
+            "type": "youtube",
+            "url": "_zRuL2bvrIM"
+        },
+        {
+            "id": "results-announcement",
+            "name": "Results announcement",
+            "date": "8 March 2026",
+            "type": "youtube",
+            "url": "ySTiDsavh3k"
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Melodi Grand Prix",
+    "countryCode": "NO",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Norway",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "28 February 2026",
+            "type": "player",
+            "url": "https://nrk-od-world-16.akamaized.net/open/ps/iuff/iuff25000026/0b76aa67-13.smil/cmaf.m3u8?adap=large"
+        },
+        {
+            "id": "final-nsl",
+            "name": "Final [in Norwegian Sign Language]",
+            "date": "28 February 2026",
+            "type": "player",
+            "url": "https://nrk-od-world-16.akamaized.net/open/ps/iuff/iuff25000026tolk/78f0549e-14.smil/cmaf.m3u8?adap=large"
+        }
+    ]
+}
