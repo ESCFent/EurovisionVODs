@@ -146,7 +146,6 @@ const showData = shows.filter(selShow => selShow.id === showID)[0].data;
 
     document.addEventListener("astro:before-swap", e => {
         previousURL = e.from.href;
-        console.log(previousURL)
         currentURL = e.to.href;
         navigatedTo = true;
     });
