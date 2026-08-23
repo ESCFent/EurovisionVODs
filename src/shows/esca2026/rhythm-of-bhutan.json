@@ -1,0 +1,15 @@
+{
+    "name": "Rhythm of Bhutan",
+    "countryCode": "BT",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Bhutan",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "11 August 2026",
+            "type": "youtube",
+            "url": "7V5cSj30SBI"
+        }
+    ]
+}

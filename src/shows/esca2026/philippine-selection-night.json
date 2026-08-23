@@ -1,0 +1,15 @@
+{
+    "name": "Philippine Selection Night",
+    "countryCode": "PH",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Philippines",
+    "shows": [
+        {
+            "id": "exclusive-listening-session",
+            "name": "Exclusive Listening Session",
+            "date": "17 August 2026",
+            "type": "youtube",
+            "url": "gP4tq3Jut-k"
+        }
+    ]
+}

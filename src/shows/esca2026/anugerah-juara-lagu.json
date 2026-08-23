@@ -1,0 +1,28 @@
+{
+    "name": "Anugerah Juara Lagu",
+    "countryCode": "MY",
+    "countryName": "Malaysia",
+    "shows": [
+        {
+            "id": "semi-final-1",
+            "name": "Semi-final 1",
+            "date": "17 April 2026",
+            "type": "player",
+            "url": "https://rumble.com/hls-vod/sZF-1-xPNBI/playlist.m3u8"
+        },
+        {
+            "id": "semi-final-2",
+            "name": "Semi-final 2",
+            "date": "18 April 2026",
+            "type": "player",
+            "url": "https://rumble.com/hls-vod/XyTRPpocodk/playlist.m3u8"
+        },
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "15 August 2026",
+            "type": "player",
+            "url": "https://rumble.com/hls-vod/4sD0x8VHSO0/playlist.m3u8"
+        }
+    ]
+}
