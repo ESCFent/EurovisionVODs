@@ -3,13 +3,104 @@
     "countryCode": "PH",
     "flagBackgroundRotation": "-90deg",
     "countryName": "Philippines",
-    "shows": [
+    "categories": [
         {
-            "id": "exclusive-listening-session",
-            "name": "Exclusive Listening Session",
-            "date": "17 August 2026",
-            "type": "youtube",
-            "url": "gP4tq3Jut-k"
+            "category": "Exclusive Listening Session",
+            "shows": [
+                {
+                    "id": "exclusive-listening-session",
+                    "name": "Exclusive Listening Session",
+                    "date": "17 August 2026",
+                    "type": "youtube",
+                    "url": "gP4tq3Jut-k",
+                    "startsAt": 605
+                }
+            ]
+        },
+        {
+            "category": "Behind the Songs",
+            "shows": [
+                {
+                    "id": "bts-between-bituin",
+                    "name": "Behind the Songs - Between Bituin",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionbetween-s001e002/bab72563-898f-48c3-9f4b-649432c43b1b/manifest.mpd",
+                    "clearkey": "890f71fb46074a7ba9877f047736856f:a29a93d668b6b87efa230e7527df2dc6"
+                },
+                {
+                    "id": "bts-broken-beyond-repair",
+                    "name": "Behind the Songs - Broken Beyond Repair",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionbrokenbeyondrepair-s001e002/3be571c7-e069-43da-b367-1f39350b4ca6/manifest.mpd",
+                    "clearkey": "38ec415bfd7d4f0aada0a7cc98ff8dd2:a1d0bf8145413387fb6aa49413ef9a96"
+                },
+                {
+                    "id": "bts-cherie",
+                    "name": "Behind the Songs - Cheri(e)",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisioncherie-s001e002/91c2af51-143b-4eb4-9671-dcec403021cb/manifest.mpd",
+                    "clearkey": "aa9c5ec2236640248725cfcfe0076c69:d8958e86bcf37ca36f50a4aa7c8e2311"
+                },
+                {
+                    "id": "bts-di-yan",
+                    "name": "Behind the Songs - Di Yan (Red Flag)",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisiondiyanredflag-s001e002/39d14264-b739-43e7-a8fb-29d2386611b7/manifest.mpd",
+                    "clearkey": "7ad2e12aa39a4c92990be776ba355a83:f937f0c83c83cea1852c715cc47e074d"
+                },
+                {
+                    "id": "bts-good-for-you",
+                    "name": "Behind the Songs - Good For You",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisiongoodforyou-s001e002/03d9df53-9cb8-4bfc-86d6-c52de2c63f77/manifest.mpd",
+                    "clearkey": "08510d5e95c244f48f8358b8218abced:48d5ccd15358809a76950f2c70f44f95"
+                },
+                {
+                    "id": "bts-mapadama",
+                    "name": "Behind the Songs - Mapadama",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionmapadama-s001e002/41320e67-36d8-4e30-82e1-ecb1159eb880/manifest.mpd",
+                    "clearkey": "95426841abc14d51b9dbafd2fc2a00fd:338ee81d09e287c8503782e2408027e3"
+                },
+                {
+                    "id": "bts-make-it-exist",
+                    "name": "Behind the Songs - Make It Exist",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionmakeitexist-s001e002/36ae4381-5e96-4f45-aad9-21557f84e152/manifest.mpd",
+                    "clearkey": "1982220ce3af4de0a665eb08ddea487c:9e698f8feda01d0676d1b9d5f12e032a"
+                },
+                {
+                    "id": "bts-reason-to-live",
+                    "name": "Behind the Songs - Reason to Live",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionreasontolive-s001e002/7febdd63-82b0-4a7b-945c-029ca3df5c53/manifest.mpd",
+                    "clearkey": "70cc596109db4772889340ce6a67732d:4f140241c65ad0c40624e50ed6eefb83"
+                },
+                {
+                    "id": "bts-round-n-round",
+                    "name": "Behind the Songs - Round N' Round",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionroundnround-s001e002/c16c2fcf-0dc0-45a9-8da6-eac4fae537f5/manifest.mpd",
+                    "clearkey": "ea4adf6fbcff46708e703bb1d373889d:226d58ede7ba0dea88bce42bd6262ee2"
+                },
+                {
+                    "id": "bts-sobra-sobra",
+                    "name": "Behind the Songs - Sobra-Sobra",
+                    "date": "28 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionsobrasobra-s001e002/6cbb4cfd-16c1-4d26-9f96-2e1ce048a57a/manifest.mpd",
+                    "clearkey": "166be0f003914ab6a19ebe1246710ba1:12cf00b45460836688ae34680cde1126"
+                }
+            ]
         }
     ]
 }
