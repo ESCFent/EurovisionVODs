@@ -1,0 +1,14 @@
+{
+    "name": "Nacionalni izbor za Evrovizijsko takmičenje mladih muzičara",
+    "countryCode": "RS",
+    "countryName": "Serbia",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "7 March 2026",
+            "type": "youtube",
+            "url": "Rnex0dVpHRA"
+        }
+    ]
+}

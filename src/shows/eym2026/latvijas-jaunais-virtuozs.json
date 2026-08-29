@@ -1,0 +1,15 @@
+{
+    "name": "Latvijas jaunais virtuozs",
+    "countryCode": "LV",
+    "flagBackgroundRotation": "90deg",
+    "countryName": "Latvia",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "15 February 2026",
+            "type": "player",
+            "url": "data:application/vnd.apple.mpegurl;base64,I0VYVE0zVQojRVhULVgtVkVSU0lPTjo0CiNFWFQtWC1NRURJQTpUWVBFPUFVRElPLEdST1VQLUlEPSJncnAyIixMQU5HVUFHRT0ibGF2IixOQU1FPSJMYXR2aWFuIixERUZBVUxUPU5PLEFVVE9TRUxFQ1Q9Tk8sVVJJPSJodHRwczovL2x0djIwNjAuYnN0cm0ubmV0L3N0b3JlL19kZWZpbnN0Xy90bXNwMDAwNjAvdm9kdC8wNy9lZS8xMTk2MjgyL2cxNl9tMjYtMjUwMC0wMDEuc21pbC9jaHVua2xpc3RfYjM4NDAwMF9hb19zbGxhdl90NjRUR0YwZG1saGJnPT0ubTN1OCIKI0VYVC1YLVNUUkVBTS1JTkY6QkFORFdJRFRIPTQ5MDAwMDAsTkFNRT0iSERfNTAwMCIsUkVTT0xVVElPTj0xOTIweDEwODAsQVVESU89ImdycDIiCmh0dHBzOi8vbHR2MjA2MC5ic3RybS5uZXQvc3RvcmUvX2RlZmluc3RfL3Rtc3AwMDA2MC92b2R0LzA3L2VlLzExOTYyODIvZzE2X20yNi0yNTAwLTAwMS5zbWlsL2NodW5rbGlzdF9iNDkwMDAwMF92b19zbGVuZ190NjRTRVJmTlRBd01BPT0ubTN1OA"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Depi dasakan Yevratesil",
+    "countryCode": "AM",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Armenia",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "22 March 2026",
+            "type": "youtube",
+            "url": "NmYxYMedBsA"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Młody Muzyk Roku",
+    "countryCode": "PL",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Poland",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "14 April 2026",
+            "type": "player",
+            "url": "https://rumble.com/hls-vod/docAgJ2QJzo/playlist.m3u8"
+        }
+    ]
+}
