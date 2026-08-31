@@ -101,6 +101,19 @@
                     "clearkey": "166be0f003914ab6a19ebe1246710ba1:12cf00b45460836688ae34680cde1126"
                 }
             ]
+        },
+        {
+            "category": "Philippine Selection Night",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "30 August 2026",
+                    "type": "player",
+                    "url": "https://iwant-video.akamaized.net/eurovisionsongcontentasia2026/f3fd5884-8a19-46e3-a0fe-c2748ee21a98/manifest.mpd",
+                    "clearkey": "5bae8e555be04887bf0d4e32a0389c1c:37782dae8ffd78c66b11a3eb067523e2"
+                }
+            ]
         }
     ]
 }
