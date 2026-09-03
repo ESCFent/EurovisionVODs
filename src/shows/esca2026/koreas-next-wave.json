@@ -1,0 +1,19 @@
+{
+    "name": "Korea's Next Wave",
+    "countryCode": "KR",
+    "countryName": "South Korea",
+    "categories": [
+        {
+            "category": "The Beginning",
+            "shows": [
+                {
+                    "id": "the-beginning",
+                    "name": "The Beginning",
+                    "date": "28 August 2026",
+                    "type": "youtube",
+                    "url": "m5atXJlEyQE"
+                }
+            ]
+        }
+    ]
+}
