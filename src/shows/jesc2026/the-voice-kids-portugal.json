@@ -1,0 +1,55 @@
+{
+    "name": "The Voice Kids",
+    "countryCode": "PT",
+    "countryName": "Portugal",
+    "shows": [
+        {
+            "id": "episode-1",
+            "name": "Episode 1",
+            "date": "19 April 2026",
+            "type": "player",
+            "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p16578/p16578_2_20260419161005e001t8899d_hi.mp4,/pt/h264/512x384/p16578/p16578_2_20260419161005e001t8899d.mp4,/pt/h264/512x384/p16578/p16578_2_20260419161005e001t8899d_lo.mp4,.urlset/master.m3u8",
+            "geoblocked": true
+        },
+        {
+            "id": "episode-2",
+            "name": "Episode 2",
+            "date": "26 April 2026",
+            "type": "player",
+            "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p16578/p16578_2_20260426161004e002t8935d_hi.mp4,/pt/h264/512x384/p16578/p16578_2_20260426161004e002t8935d.mp4,/pt/h264/512x384/p16578/p16578_2_20260426161004e002t8935d_lo.mp4,.urlset/master.m3u8",
+            "geoblocked": true
+        },
+        {
+            "id": "episode-3",
+            "name": "Episode 3",
+            "date": "3 May 2026",
+            "type": "player",
+            "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p16578/p16578_2_20260503161005e003t6537d_hi.mp4,/pt/h264/512x384/p16578/p16578_2_20260503161005e003t6537d.mp4,/pt/h264/512x384/p16578/p16578_2_20260503161005e003t6537d_lo.mp4,.urlset/master.m3u8",
+            "geoblocked": true
+        },
+        {
+            "id": "episode-4",
+            "name": "Episode 4",
+            "date": "10 May 2026",
+            "type": "player",
+            "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p16578/p16578_2_20260510161004e004t7391d_hi.mp4,/pt/h264/512x384/p16578/p16578_2_20260510161004e004t7391d.mp4,/pt/h264/512x384/p16578/p16578_2_20260510161004e004t7391d_lo.mp4,.urlset/master.m3u8",
+            "geoblocked": true
+        },
+        {
+            "id": "episode-5",
+            "name": "Episode 5",
+            "date": "17 May 2026",
+            "type": "player",
+            "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p16578/p16578_2_20260517161005e005t7168d_hi.mp4,/pt/h264/512x384/p16578/p16578_2_20260517161005e005t7168d.mp4,/pt/h264/512x384/p16578/p16578_2_20260517161005e005t7168d_lo.mp4,.urlset/master.m3u8",
+            "geoblocked": true
+        },
+        {
+            "id": "final",
+            "name": "Episode 6 [Final]",
+            "date": "24 May 2026",
+            "type": "player",
+            "url": "https://streaming-vod.rtp.pt/hls/nas2.share,/pt/h264/512x384/p16578/p16578_1_20260524235718e006t0295.mp4,.urlset/master.m3u8",
+            "geoblocked": true
+        }
+    ]
+}

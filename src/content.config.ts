@@ -7,6 +7,7 @@ const showsSchema = z.array(z.object({
     date: z.string(),
     type: z.enum(["player", "youtube", "iframe"]),
     url: z.union([z.string().url(), z.string().regex(/^[a-zA-Z0-9_-]{11}$/g)]),
+    geoblocked: z.optional(z.boolean()),
     startsAt: z.optional(z.number()),
     clearkey: z.optional(z.string().regex(/^[0-9a-f]{32}:[0-9a-f]{32}$/g))
 })).optional();

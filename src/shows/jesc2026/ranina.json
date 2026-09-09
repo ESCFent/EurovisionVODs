@@ -1,0 +1,102 @@
+{
+    "name": "Ranina",
+    "countryCode": "GE",
+    "countryName": "Georgia",
+    "categories": [
+        {
+            "category": "Tour 1",
+            "shows": [
+                {
+                    "id": "tour-1-episode-1",
+                    "name": "Tour 1 - Episode 1",
+                    "date": "4 April 2026",
+                    "type": "youtube",
+                    "url": "_Ps70Czmo4g"
+                },
+                {
+                    "id": "tour-1-episode-2",
+                    "name": "Tour 1 - Episode 2",
+                    "date": "11 April 2026",
+                    "type": "youtube",
+                    "url": "Nn3tiBGYznU"
+                }
+            ]
+        },
+        {
+            "category": "Tour 2",
+            "shows": [
+                {
+                    "id": "tour-2-episode-1",
+                    "name": "Tour 2 - Episode 1",
+                    "date": "18 April 2026",
+                    "type": "youtube",
+                    "url": "z1YocYIdJ5A"
+                },
+                {
+                    "id": "tour-2-episode-2",
+                    "name": "Tour 2 - Episode 2",
+                    "date": "25 April 2026",
+                    "type": "youtube",
+                    "url": "G-edaCpPKwg"
+                }
+            ]
+        },
+        {
+            "category": "Tour 3",
+            "shows": [
+                {
+                    "id": "tour-3-episode-1",
+                    "name": "Tour 3 - Episode 1",
+                    "date": "2 May 2026",
+                    "type": "youtube",
+                    "url": "oULoGj7PLik"
+                },
+                {
+                    "id": "tour-3-episode-2",
+                    "name": "Tour 3 - Episode 2",
+                    "date": "9 May 2026",
+                    "type": "youtube",
+                    "url": "NxcFAH7Qoxc"
+                }
+            ]
+        },
+        {
+            "category": "Tour 4",
+            "shows": [
+                {
+                    "id": "tour-4-episode-1",
+                    "name": "Tour 4 - Episode 1",
+                    "date": "16 May 2026",
+                    "type": "youtube",
+                    "url": "TLbwGIA22ZQ"
+                },
+                {
+                    "id": "tour-4-episode-2",
+                    "name": "Tour 4 - Episode 2",
+                    "date": "23 May 2026",
+                    "type": "youtube",
+                    "url": "i32hVXAbV9U"
+                }
+            ]
+        },
+        {
+            "category": "Semi-final & final",
+            "shows": [
+                {
+                    "id": "semi-final",
+                    "name": "Semi-final",
+                    "date": "30 May 2026",
+                    "type": "youtube",
+                    "url": "AfvlcYu4bUM"
+                },
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "6 June 2026",
+                    "type": "youtube",
+                    "url": "9kn5LkMLVJg"
+                }
+            ]
+        }
+    ]
+}

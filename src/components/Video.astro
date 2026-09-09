@@ -19,6 +19,7 @@ let thumbnail = thumbnails[`/src/shows/_thumbnails/${showID}/${thumbnailExists ?
     <div id="video-info">
         <h3>{show.name}</h3>
         <p>{show.date}</p>
+        {show.geoblocked ? <span class="geoblocked">❕ Geoblocked</span> : ""}
     </div>
 </div>
 
@@ -65,5 +66,16 @@ let thumbnail = thumbnails[`/src/shows/_thumbnails/${showID}/${thumbnailExists ?
         width: 3.5rem;
         height: 3.5rem;
         padding: 0.25rem;
+    }
+    #video-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .geoblocked {
+        background: rgb(127 0 0);
+        padding: 0.25rem 0.5rem;
+        border-radius: 0.25rem;
+        margin-top: 0.5rem;
+        width: max-content;
     }
 </style>

@@ -1,0 +1,14 @@
+{
+    "name": "Festivali Mbarëkombëtar i Këngës për Fëmijë",
+    "countryCode": "AL",
+    "countryName": "Albania",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "1 June 2026",
+            "type": "youtube",
+            "url": "ZPcUGfT2sdg"
+        }
+    ]
+}
