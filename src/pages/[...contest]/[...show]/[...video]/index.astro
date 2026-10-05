@@ -154,6 +154,43 @@ let thumbnailExists = existsSync(thumbnailPath);
             };
 
             let url = document.querySelector("#player").dataset.src;
+            if (url.startsWith("special://")) {
+                const param = url.split("/").slice(3)[0];
+                switch (url.split("/")[2]) {
+                    case "npo":
+                        const token = await fetch(`https://api-start-tv.npo.nl/v2/player/${param}`).then(response => response.json()).then(json => json.token);
+                        const [videoURL, widevineURL] = await fetch("https://prod.npoplayer.nl/stream-link", {
+                            headers: {
+                                "Authorization": token,
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({
+                                profileName: "dash",
+                                drmType: "widevine",
+                                ster: {
+                                    identifier: "npo-app-desktop",
+                                    deviceType: 4,
+                                    player: "web"
+                                }
+                            }),
+                            method: "POST"
+                        })
+                            .then(response => response.json())
+                            .then(json => [json.stream.streamURL, json.stream.drm?.licenseUrl]);
+                        
+                        url = videoURL;
+                        if (widevineURL) {
+                            player.configure({
+                                drm: {
+                                    servers: {
+                                        "com.widevine.alpha": widevineURL
+                                    }
+                                }
+                            });
+                        };
+                        break;
+                };
+            };
             await player.load(url);
 
             if (document.querySelector("#player").dataset.subtitles) {

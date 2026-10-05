@@ -1,0 +1,15 @@
+{
+    "name": "The Sound of Vietnam",
+    "countryCode": "VN",
+    "countryName": "Vietnam",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "3 October 2026",
+            "type": "youtube",
+            "url": "_IX67wlueeM",
+            "startsAt": 850
+        }
+    ]
+}

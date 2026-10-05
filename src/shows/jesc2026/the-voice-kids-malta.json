@@ -1,0 +1,97 @@
+{
+    "name": "The Voice Kids",
+    "countryCode": "MT",
+    "countryName": "Malta",
+    "categories": [
+        {
+            "category": "Auditions",
+            "shows": [
+                {
+                    "id": "auditions-episode-1",
+                    "name": "Auditions - Episode 1",
+                    "date": "7 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/183897"
+                },
+                {
+                    "id": "auditions-episode-2",
+                    "name": "Auditions - Episode 2",
+                    "date": "8 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/183899"
+                },
+                {
+                    "id": "auditions-episode-3",
+                    "name": "Auditions - Episode 3",
+                    "date": "9 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/183903"
+                },
+                {
+                    "id": "auditions-episode-4",
+                    "name": "Auditions - Episode 4",
+                    "date": "10 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/183908"
+                }
+            ]
+        },
+        {
+            "category": "Battles",
+            "shows": [
+                {
+                    "id": "battles-episode-2",
+                    "name": "Battles - Episode 2",
+                    "date": "14 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/183976"
+                },
+                {
+                    "id": "battles-episode-3",
+                    "name": "Battles - Episode 3",
+                    "date": "15 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/184010"
+                }
+            ]
+        },
+        {
+            "category": "Sing-Offs",
+            "shows": [
+                {
+                    "id": "sing-offs-episode-1",
+                    "name": "Sing-Offs - Episode 1",
+                    "date": "16 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/184025"
+                },
+                {
+                    "id": "sing-offs-episode-2",
+                    "name": "Sing-Offs - Episode 2",
+                    "date": "17 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/184030"
+                },
+                {
+                    "id": "sing-offs-episode-3",
+                    "name": "Sing-Offs - Episode 3",
+                    "date": "18 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/184049"
+                }
+            ]
+        },
+        {
+            "category": "Final",
+            "shows": [
+                {
+                    "id": "final",
+                    "name": "Final",
+                    "date": "19 September 2026",
+                    "type": "iframe",
+                    "url": "https://tvmi.mt/episode/184059"
+                }
+            ]
+        }
+    ]
+}

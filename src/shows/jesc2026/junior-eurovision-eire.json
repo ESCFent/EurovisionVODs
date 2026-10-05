@@ -1,0 +1,47 @@
+{
+    "name": "Junior Eurovision Éire",
+    "countryCode": "IE",
+    "countryName": "Ireland",
+    "shows": [
+        {
+            "id": "auditions",
+            "name": "Auditions",
+            "date": "13 September 2026",
+            "type": "player",
+            "url": "https://vod-api.escfent.com/tg4/6404370496112.mpd",
+            "clearkey": "09d8a65c014e46bebafda224c0f14174:640a251033543c36a1ca65626755a88a"
+        },
+        {
+            "id": "first-round",
+            "name": "First Round",
+            "date": "20 September 2026",
+            "type": "player",
+            "url": "https://vod-api.escfent.com/tg4/6404867524112.mpd",
+            "clearkey": "0caa762141f24bf1bf42a74012e6b695:4540c5a59c1071ca2707ac2772cbe051"
+        },
+        {
+            "id": "second-round",
+            "name": "Second Round",
+            "date": "24 September 2026",
+            "type": "player",
+            "url": "https://vod-api.escfent.com/tg4/6405432058112.mpd",
+            "clearkey": "23993db4e055495093ee1b7f851f2725:dd3f6a0deacb31039feefb93a3c6fd7f"
+        },
+        {
+            "id": "semi-final",
+            "name": "Semi-final",
+            "date": "27 September 2026",
+            "type": "player",
+            "url": "https://vod-api.escfent.com/tg4/6405485209112.mpd",
+            "clearkey": "5896c65c40f148d68bf73bb35f974f72:a8b9bb73d88f6efdb5a6da5efa8c6dc3"
+        },
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "4 October 2026",
+            "type": "player",
+            "url": "https://vod-api.escfent.com/tg4/6405751518112.mpd",
+            "clearkey": "5bf57d999575402ebd0cfa95092d2dc8:472be663789de4ae5378f4235f70ed4c"
+        }
+    ]
+}

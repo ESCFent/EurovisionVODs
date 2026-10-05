@@ -1,0 +1,16 @@
+{
+    "name": "Thailand's Chosen One",
+    "countryCode": "TH",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Thailand",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "27 September 2026",
+            "type": "youtube",
+            "url": "FweQhkB6Gp8",
+            "startsAt": 365
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Junior Vidbir",
+    "countryCode": "UA",
+    "countryName": "Ukraine",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "26 September 2026",
+            "type": "youtube",
+            "url": "2PXtI8UhSI8"
+        }
+    ]
+}

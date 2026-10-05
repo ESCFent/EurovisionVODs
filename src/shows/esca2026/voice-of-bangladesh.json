@@ -1,0 +1,15 @@
+{
+    "name": "Voice of Bangladesh",
+    "countryCode": "BD",
+    "countryName": "Bangladesh",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "30 September 2026",
+            "type": "youtube",
+            "url": "fK9JCDVLEFA",
+            "startsAt": 371
+        }
+    ]
+}

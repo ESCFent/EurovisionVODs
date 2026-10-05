@@ -1,0 +1,14 @@
+{
+    "name": "Junior Songfestival",
+    "countryCode": "NL",
+    "countryName": "Netherlands",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "19 September 2026",
+            "type": "player",
+            "url": "special://npo/de091809-5e4f-4648-b2fc-772220de1e37"
+        }
+    ]
+}

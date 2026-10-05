@@ -1,0 +1,23 @@
+{
+    "name": "Sieng Lao: The One",
+    "countryCode": "LA",
+    "flagBackgroundRotation": "-90deg",
+    "countryName": "Laos",
+    "shows": [
+        {
+            "id": "final",
+            "name": "Final",
+            "date": "23 September 2026",
+            "type": "youtube",
+            "url": "CcmhXifJsiI"
+        },
+        {
+            "id": "results",
+            "name": "Result Show",
+            "date": "24 September 2026",
+            "type": "youtube",
+            "url": "r2gurtVM6Po",
+            "startsAt": 739
+        }
+    ]
+}

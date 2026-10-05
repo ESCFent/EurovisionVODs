@@ -47,6 +47,18 @@ serve(async request => {
                     .then(json => json.data);
                 break;
 
+            case "tg4":
+                const videoInfo = await fetch(`https://edge.api.brightcove.com/playback/v1/accounts/1555966122001/videos/${id}`, {
+                    headers: {
+                        Accept: "application/json;pk=BCpk2eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoicHJvZC1qd2UtMjAyNi0wNiIsInppcCI6IkRFRiJ9..t3nSzEKHbfI7o9ni.meZ6nFg77ObOHmaN7YZI1ydnmFhPP9wrSYhDs8WD8cm8_aEOjxfrJheebjAJUZwIAGgzxAfN25vcQNtlsNzsreCegyk26gbVmkBKkQ8KFdynwaa1hGctMmroeNAFAHihzkKw45CxRbWkdRPxT-DTZzQEpnqFnS5yrNfpg7ncolJzCgeGvPM7G6vzxtOWzDR5z87sbuFvWuEQzBasG7Amm7I7zb01KbMpQHautN6iPeL_suqkE-XbvOLNAilL7A88tXF6mQOFYIrvq8ygPpyDUPSrvVoKxWsHce69c36DypLlRAf2gRm-3g-6M7JbSKvydMGFZEKecpmNEMVDL7m5QvtX_YDFC2jGaYmpYmjjHHp9qOLuERVHqip_WDojTdkHlAXgK5uBKIL-Q6apZUahMmPe0XnF-a7_1CxPKfv1pgoG64f9eHpsslwwv1aVPqG5BxtGrk-BQuFuJKkstl9bNPZqKluMRZ_6pQ_YzKVlTLM_2921EIcfgs1Wgmzk6g9IhyGs0418J3JW44uo376MaQphgc9cxSjGNE2B0J1YFaymMqlOgQStquraembPJPvxPxMoRXjP9NcLlo8ohMiJc3yapWCD1PhYWtDK.9U6hUnWPulghFH4dLaK9dQ",
+                        Origin: "https://www.tg4.ie"
+                    }
+                })
+                    .then(response => response.json());
+
+                url = videoInfo.sources.find(source => source.type === "application/dash+xml" && source.src.startsWith("https://")).src;
+                break;
+
             default:
                 return new Response("Invalid service", { status: 400, headers });
         };
